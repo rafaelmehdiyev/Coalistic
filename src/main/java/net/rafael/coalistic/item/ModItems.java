@@ -26,7 +26,7 @@ public class ModItems {
     public static void registerModItems() {
         Coalistic.LOGGER.info("Registering Mod Items for "+Coalistic.MOD_ID );
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(DOUBLE_COAL);
             entries.add(DOUBLE_CHARCOAL);
             entries.add(COAL_PIECE);
