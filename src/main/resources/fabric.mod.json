@@ -3,12 +3,13 @@
 	"id": "coalistic",
 	"version": "${version}",
 	"name": "Coalistic",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Coal Piece, Double Coal and Double Charcoal to the Game",
 	"authors": [
-		"Me!"
+		"RaFaEL0 (Rafael) - Developer",
+		"Elimirze - Idea "
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/rafaelmehdiyev/Coalistic"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/coalistic/icon.png",
