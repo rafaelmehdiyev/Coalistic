@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "coalistic:coal_piece"
+    },
+    "P": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CPC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "coalistic:double_coal"
+  }
+}
