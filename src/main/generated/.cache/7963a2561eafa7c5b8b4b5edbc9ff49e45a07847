@@ -1,4 +1,7 @@
-// 1.21.2	2025-01-02T13:20:15.3846053	Coalistic/Model Definitions
-4635cfe4742bc0bb77054c73dcfe2f87131f6af5 assets\coalistic\models\item\double_coal.json
-282165fb145a619ee71753d23322d5407950a489 assets\coalistic\models\item\coal_piece.json
-ef92a4c92c6f00b9305df5ff90bed1eefdc26abb assets\coalistic\models\item\double_charcoal.json
+// 1.21.4	-999999999-01-01T00:00:00	Coalistic/Model Definitions
+bc559204337f88af341d3977e79fd6edf5816279 assets/coalistic/items/coal_piece.json
+5a0bb31c0179e01bc6c1943f025aa7f4ad2471ab assets/coalistic/items/double_charcoal.json
+269198d35c0ac9d8ae433c04f086333ee2b8a2a8 assets/coalistic/items/double_coal.json
+282165fb145a619ee71753d23322d5407950a489 assets/coalistic/models/item/coal_piece.json
+ef92a4c92c6f00b9305df5ff90bed1eefdc26abb assets/coalistic/models/item/double_charcoal.json
+4635cfe4742bc0bb77054c73dcfe2f87131f6af5 assets/coalistic/models/item/double_coal.json
