@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": {
-      "item": "coalistic:coal_piece"
-    },
-    "P": {
-      "item": "minecraft:charcoal"
-    }
+    "C": "coalistic:coal_piece",
+    "P": "minecraft:charcoal"
   },
   "pattern": [
     "CCC",

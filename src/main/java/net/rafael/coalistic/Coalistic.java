@@ -1,8 +1,7 @@
 package net.rafael.coalistic;
 
 import net.fabricmc.api.ModInitializer;
-
-import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.minecraft.util.Identifier;
 import net.rafael.coalistic.item.ModItems;
 import org.slf4j.Logger;
@@ -18,8 +17,11 @@ public class Coalistic implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-		FuelRegistry.INSTANCE.add(ModItems.COAL_PIECE, 200);
-		FuelRegistry.INSTANCE.add(ModItems.DOUBLE_COAL, 3200);
-		FuelRegistry.INSTANCE.add(ModItems.DOUBLE_CHARCOAL, 3200);
+
+		FuelRegistryEvents.BUILD.register((builder, context) -> {
+			builder.add(ModItems.COAL_PIECE, 200);
+			builder.add(ModItems.DOUBLE_COAL, 3200);
+			builder.add(ModItems.DOUBLE_CHARCOAL, 3200);
+		});
 	}
 }

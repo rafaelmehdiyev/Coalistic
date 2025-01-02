@@ -5,13 +5,20 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.rafael.coalistic.Coalistic;
 
 public class ModItems {
 
-    public static final Item COAL_PIECE = registerItem("coal_piece", new Item(new Item.Settings()));
-    public static final Item DOUBLE_COAL = registerItem("double_coal", new Item(new Item.Settings()));
-    public static final Item DOUBLE_CHARCOAL = registerItem("double_charcoal", new Item(new Item.Settings()));
+    public static final Item COAL_PIECE = registerItem("coal_piece", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Coalistic.MOD_IDENTIFIER("coal_piece")))));
+
+    public static final Item DOUBLE_COAL = registerItem("double_coal", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Coalistic.MOD_IDENTIFIER("double_coal")))));
+
+    public static final Item DOUBLE_CHARCOAL = registerItem("double_charcoal", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Coalistic.MOD_IDENTIFIER("double_charcoal")))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Coalistic.MOD_IDENTIFIER(name), item);
